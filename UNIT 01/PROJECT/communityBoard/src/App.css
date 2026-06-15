@@ -1,0 +1,101 @@
+#root {
+  max-width: 1280px;
+  margin: 3rem;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: #fff;
+  background-color: white;
+}
+
+h1 {
+  color: #006341;
+  font-size: 54px;
+  text-shadow: 0px 9px 18px lightgrey;
+  margin-bottom: 0px; 
+}
+
+h2 {
+  color: #006341;
+  font-size: 27px;
+  text-shadow: 0px 9px 18px lightgrey;
+  padding-bottom: 18px;
+  margin-top: 12px;
+  margin-right: 36px;
+  margin-left: 36px;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  place-items: center;
+  justify-content: space-evenly;
+  min-width: 640px;
+}
+
+.Card {
+  color: #fff;
+  background-color: #006341;
+  padding-bottom: 20px;
+  box-shadow: 0 9px 9px lightgrey;
+  font-size: medium;
+  border-radius: 14px;
+  backdrop-filter: blur(2px);
+  text-align: center;
+  margin-bottom: 30px;
+  height: 400px;
+  width: 300px;
+}
+
+.Card img {
+  border-radius: 14px 14px 0 0;
+}
+
+.Card h3, h4 {
+  line-height: 0px;
+  align-content: center;
+}
+
+.Card h3 {
+  font-size: 24px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.Card h4 {
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+
+.Card img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.Card button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  accent-color: white;
+  padding: .6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #fff;
+  background-color: #C8102E;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Card button:hover {
+  background-color: #A50E24;
+}
+

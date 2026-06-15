@@ -1,0 +1,81 @@
+.app {
+  box-sizing: border-box;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0 0 1rem;
+  font-size: 3rem;
+}
+
+.header p {
+  margin: 1rem;
+}
+
+.flip-card {
+  width: 480px;
+  height: 220px;
+  background-color: transparent;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: ease 0.3s;
+  transform-style: preserve-3d;
+}
+
+.flip-card.flipped .flip-card-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 1.2rem;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.flip-card-front:hover,
+.flip-card-back:hover {
+  background: #111;
+}
+
+.flip-card-back {
+  transform: rotateX(180deg);
+}
+
+.next-button {
+  background: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 18px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.next-button:hover {
+  background: #111;
+}
