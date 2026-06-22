@@ -105,11 +105,11 @@ const App = () => {
       </div>
 
       <div className="button-container">
-        <button className={`next-button ${noNext ? "no-next" : ""}`} onClick={nextCard}>
-          NEXT
-        </button>
         <button className={`back-button ${noPrev ? "no-prev" : ""}`} onClick={prevCard}>
           BACK
+        </button>
+        <button className={`next-button ${noNext ? "no-next" : ""}`} onClick={nextCard}>
+          NEXT
         </button>
         <input
         type="text"
