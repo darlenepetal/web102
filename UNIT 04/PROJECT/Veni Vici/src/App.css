@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+.keyword-list {
+  margin: 9px 0 9px 0;
+}
+
+.keyword {
+  margin: 0 3px 0 3px;
+}
+
+.header {
+  margin: 9px 0 -3px 0;
+}
+
+.image-title {
+  margin: 18px 0 12px 0;
+}
+
+.whole-page {
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+
+.button {
+  padding: 12px 20px;
+  margin: 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.main-content {
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ban-list {
+  width: 666px;
+  border: 1px solid white;
+  padding: 20px;
+}
+
+.ban-item {
+  justify-content: center;
+  margin: 3px 0;
+  padding: 8px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+
+.ban-grid > p {
+  width: 100px;
+}
+
+.ban-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+.image-section {
+  width: 900px;
+  border: 1px solid white;
+  padding: 20px;
+}
+
+.nasa-image {
+  width: 600px;
+  border-radius: 10px;
+}
+
+.attribute {
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+}
+
+.attribute:hover,
+.ban-item:hover,
+.button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.details {
+  margin: 6px 0 0 0;
+}
+
+.description {
+  line-height: 1.5;
+  text-align: center;
+}
